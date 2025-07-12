@@ -1,0 +1,13 @@
+body{
+    font-family: "Comic Sans MS", Arial, sans-serif;
+    
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+    font-variant: small-caps;
+}
+
