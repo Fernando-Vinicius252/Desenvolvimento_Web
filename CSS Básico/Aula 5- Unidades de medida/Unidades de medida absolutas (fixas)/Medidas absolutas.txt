@@ -1,0 +1,6 @@
+cm = Centímetro
+mm = Milímetros
+in = Polegadas (1in = 96px = 2.54cm)
+px = pixels (1px = 1/96th of 1in)
+pt = Pontos (1pt = 1/72 of 1 in)
+pc = Picas (1pc = 12 pt)
