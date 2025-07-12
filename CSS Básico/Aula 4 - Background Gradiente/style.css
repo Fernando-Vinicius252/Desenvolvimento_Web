@@ -1,0 +1,23 @@
+.verde {
+    height: 100px;
+    background: linear-gradient( red,blue,green);
+
+}
+
+.vermelho {
+    height: 100px;
+    background: linear-gradient(90deg, red 10%, blue, 25%, green);
+
+}
+
+.azul {
+    height: 100px;
+    background: linear-gradient(to bottom right, red,blue,green);
+
+}
+
+.amarelo {
+    height: 100px;
+    background: linear-gradient(90deg, yellow,red 25%,orange);
+
+}
