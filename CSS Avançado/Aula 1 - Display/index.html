@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Primeira página</title>
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color: blue;">
+        <div>Esta é uma DIV normal</div>
+        <div> E aqui a história<div style="background-color:  red; width: 500px;"> de dentro</div>
+            continua
+        </div>
+    </div>
+
+    <!-- display: "block" Permite modificar largura e altura do elemento. O próximo conteúdo será exibido em uma nova linha. -->
+
+    <div>
+        <p style="margin: 0;">Este é um parágrafo normal</p>
+        <p style="margin: 0;">E aqui a história continua</p>
+    </div>
+
+    <p>
+        Aqui eu tenho o inicio de um parágrafo <span
+            style="background-color:  green; width: 500px; display: inline-block;"> um SPAN no meio</span> e o fim do
+        parágrafo
+    </p>
+
+    <!-- display: "inline" Não permite modificar largura nem altura. O conteúdo seguinte será exibido na mesma linha. -->
+
+    <!-- display: "inline-block" Permite modificar largura e altura, mas o conteúdo seguinte permanece na mesma linha. -->
+
+    <p style=" background-color:  blue;">
+        Aqui eu tenho o inicio de um parágrafo
+    <div style="background-color: red;"> uma div no meio</div> E o fim do parágrafo.
+    </p>
+
+    <!-- Não é permitido inserir uma div dentro de um parágrafo (<p>), nem colocar um parágrafo dentro de outro. Isso viola a estrutura semântica do HTML -->
+
+    <p>
+        Aqui eu tenho o inicio de um parágrafo <img src="./imagens/pc1.jpg"
+            style="width: 300px; /* display: none; */ visibility: hidden;"> E o fim do parágrafo
+    </p>
+
+
+
+</body>
+
+</html>
